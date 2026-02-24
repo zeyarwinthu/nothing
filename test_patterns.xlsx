@@ -1,0 +1,8 @@
+| Test Case ID | Process       | Input Values         | Expected Results                | Test Type  | Notes |
+|--------------|---------------|-----------------------|----------------------------------|------------|-------|
+| TC_001      | Processing 3  | Valid Data Example     | Process should complete successfully | Valid      | Additional comments if needed |
+| TC_002      | Processing 3  | Invalid Data Example   | Process should throw validation error | Invalid    | Additional comments if needed |
+| TC_003      | Processing 3  | Boundary Condition Data | Process should handle edge cases correctly | Valid    | Additional comments if needed |
+| TC_004      | Processing 5  | Valid Data Example     | Process should complete successfully | Valid      | Additional comments if needed |
+| TC_005      | Processing 5  | Invalid Data Example   | Process should throw validation error | Invalid    | Additional comments if needed |
+| TC_006      | Processing 5  | Boundary Condition Data | Process should handle edge cases correctly | Valid    | Additional comments if needed |
