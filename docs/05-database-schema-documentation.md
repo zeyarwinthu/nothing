@@ -153,7 +153,7 @@ Core user account table.
 |-----------------|------------------|----------|------------------|--------------------------------------------|
 | `id`            | CHAR(36)         | No       | UUID()           | Primary key (UUID)                         |
 | `email`         | VARCHAR(255)     | No       | -                | Unique email address                       |
-| `password_hash` | VARCHAR(255)     | Yes      | NULL             | bcrypt password hash (null for OAuth-only) |
+| `password_hash` | VARCHAR(255)     | Yes      | NULL             | bcrypt password hash, work factor 12 (null for OAuth-only) |
 | `display_name`  | VARCHAR(30)      | No       | -                | User's display name                        |
 | `avatar_url`    | VARCHAR(500)     | Yes      | NULL             | CDN URL for avatar image                   |
 | `native_language`| VARCHAR(5)      | No       | 'en'             | ISO 639-1 native language code             |
